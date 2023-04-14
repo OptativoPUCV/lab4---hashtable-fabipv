@@ -16,3 +16,9 @@ hashmap.c:61:16: error: assignment to ‘long int’ from ‘void *’ makes int
 cc1: all warnings being treated as errors
 Compilation failed
 9b296b8
+Fri 14 Apr 2023 02:00:50 AM UTC: 
+ hashmap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  0|6
+total_score: 0/70
+cd17ed0
