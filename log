@@ -34,3 +34,14 @@ Fri 14 Apr 2023 02:39:44 AM UTC:
  tests:  1|5
 total_score: 10/70
 2fefb9b
+Fri 12 May 2023 06:48:24 PM UTC: 
+ hashmap.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+In file included from test.c:4:
+hashmap.c: In function ‘insertMap’:
+hashmap.c:44:7: error: unused variable ‘pos’ [-Werror=unused-variable]
+   44 |   int pos = hash(key, map->capacity);
+      |       ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+6c46929
