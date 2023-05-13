@@ -83,7 +83,10 @@ void eraseMap(HashMap * map,  char * key) {
 
 }
 
-Pair * searchMap(HashMap * map,  char * key) {   
+Pair * searchMap(HashMap * map,  char * key) 
+{   
+  pos = hash(key, map->capacity);
+  
 
 
     return NULL;
