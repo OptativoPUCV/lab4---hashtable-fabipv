@@ -85,7 +85,7 @@ void eraseMap(HashMap * map,  char * key) {
 
 Pair * searchMap(HashMap * map,  char * key) 
 {   
-  int pos = hash(key, map->capacity);
+  //int pos = hash(key, map->capacity);
 
   /*while(pos != 0)
   {
