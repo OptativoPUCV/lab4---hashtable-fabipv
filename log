@@ -81,3 +81,14 @@ hashmap.c:88:3: error: ‘pos’ undeclared (first use in this function); did yo
 hashmap.c:88:3: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 1e6a3d5
+Sat 13 May 2023 11:36:57 PM UTC: 
+ hashmap.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+In file included from test.c:4:
+hashmap.c: In function ‘searchMap’:
+hashmap.c:88:7: error: unused variable ‘pos’ [-Werror=unused-variable]
+   88 |   int pos = hash(key, map->capacity);
+      |       ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+f69a0f1
