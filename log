@@ -117,3 +117,14 @@ Sun 14 May 2023 02:12:21 AM UTC:
  tests:  8|3
 total_score: 40/70
 590436c
+Sun 14 May 2023 02:17:27 AM UTC: 
+ hashmap.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+In file included from test.c:4:
+hashmap.c: In function ‘eraseMap’:
+hashmap.c:83:9: error: unused variable ‘buscado’ [-Werror=unused-variable]
+   83 |   Pair* buscado = searchMap( map, key);
+      |         ^~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+3f5c5f9

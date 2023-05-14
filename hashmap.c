@@ -78,7 +78,9 @@ HashMap * createMap(long capacity)
   return newMap;
 }
 
-void eraseMap(HashMap * map,  char * key) {    
+void eraseMap(HashMap * map,  char * key) 
+{
+  Pair* buscado = searchMap( map, key);
 
 
 }
@@ -96,7 +98,7 @@ Pair * searchMap(HashMap * map,  char * key)
     }
     pos = (pos + 1) % map->capacity;
   }
-    return NULL;
+  return NULL;
 }
 
 Pair * firstMap(HashMap * map) {
