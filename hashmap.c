@@ -85,12 +85,18 @@ void eraseMap(HashMap * map,  char * key) {
 
 Pair * searchMap(HashMap * map,  char * key) 
 {   
-  //int pos = hash(key, map->capacity);
+  int pos = hash(key, map->capacity);
 
-  /*while(pos != 0)
+  while(map->buckets[pos] != NULL)
   {
-    
-  }*/
+    if(is_equal(map->buckets[pos]->key, key))
+    {
+      map->current = pos;
+      return map->buckets[pos];
+    }
+
+    pos = (pos + 1) % map->capacity
+  }
     
 
 
