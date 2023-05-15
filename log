@@ -250,3 +250,9 @@ hashmap.c:127:14: error: initialization of ‘int’ from ‘HashMap *’ {aka �
 cc1: all warnings being treated as errors
 Compilation failed
 ea2d6e3
+Mon 15 May 2023 02:36:48 AM UTC: 
+ hashmap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  13|2
+total_score: 50/70
+4cd498f

@@ -124,7 +124,7 @@ Pair * firstMap(HashMap * map)
 
 Pair * nextMap(HashMap * map) 
 {
-  int  pos = map + 1;
+  int  pos = map->current + 1;
 
   while(map->buckets[pos] == NULL || map->buckets[pos]->key == NULL)
   {
