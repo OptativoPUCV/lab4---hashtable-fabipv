@@ -69,7 +69,10 @@ void enlarge(HashMap * map)
   map->buckets = (Pair**) calloc(map->capacity, sizeof(Pair*));
   map->size = 0;
 
-  
+  for(int i = 0; i < antCapacity; i++)
+  {
+    
+  }
 
   
 
