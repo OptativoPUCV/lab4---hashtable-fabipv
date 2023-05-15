@@ -190,3 +190,14 @@ Mon 15 May 2023 02:03:25 AM UTC:
  tests:  11|2
 total_score: 50/70
 80da7ba
+Mon 15 May 2023 02:03:40 AM UTC: 
+ hashmap.c | 2 --
+ 1 file changed, 2 deletions(-)
+In file included from test.c:4:
+hashmap.c: In function ‘firstMap’:
+hashmap.c:121:1: error: control reaches end of non-void function [-Werror=return-type]
+  121 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+c8ccc26
