@@ -111,6 +111,11 @@ Pair * firstMap(HashMap * map)
   while(map == NULL)
   {
     pos++;
+
+    if(pos >= map)
+    {
+      return NULL;
+    }
       
   }
 
