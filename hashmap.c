@@ -108,11 +108,11 @@ Pair * firstMap(HashMap * map)
 {
   int pos = 0;
 
-  while(map == NULL)
+  while(map->buckets[pos] == NULL)
   {
     pos++;
 
-    if(pos >= map)
+    if(pos >= map->capacity)
     {
       return NULL;
     }
