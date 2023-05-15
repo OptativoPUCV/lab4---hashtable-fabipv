@@ -124,6 +124,9 @@ Pair * firstMap(HashMap * map)
 
 Pair * nextMap(HashMap * map) 
 {
+  int  pos = map + 1;
+  
+  
 
     return NULL;
 }
