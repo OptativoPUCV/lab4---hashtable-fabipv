@@ -67,7 +67,6 @@ void enlarge(HashMap * map) {
 
 HashMap * createMap(long capacity)
 {
-
   HashMap *newMap = (HashMap*) malloc(sizeof(HashMap));
 
   newMap->buckets = (Pair**) calloc(capacity,sizeof(Pair*));
@@ -87,8 +86,6 @@ void eraseMap(HashMap * map,  char * key)
     buscado->key = NULL;
     map->size--;
   }
-
-
 }
 
 Pair * searchMap(HashMap * map,  char * key) 
@@ -107,7 +104,9 @@ Pair * searchMap(HashMap * map,  char * key)
   return NULL;
 }
 
-Pair * firstMap(HashMap * map) {
+Pair * firstMap(HashMap * map) 
+{
+  int pos = 0;
 
     return NULL;
 }
