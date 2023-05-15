@@ -115,9 +115,11 @@ Pair * firstMap(HashMap * map)
     if(pos >= map->capacity)
     {
       return NULL;
-    }
-      
+    }  
   }
+  
+  map->current = pos;
+  return map->buckets[pos];
 }
 
 Pair * nextMap(HashMap * map) {
