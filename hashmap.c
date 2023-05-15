@@ -122,7 +122,8 @@ Pair * firstMap(HashMap * map)
   return map->buckets[pos];
 }
 
-Pair * nextMap(HashMap * map) {
+Pair * nextMap(HashMap * map) 
+{
 
     return NULL;
 }
