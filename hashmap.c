@@ -108,6 +108,12 @@ Pair * firstMap(HashMap * map)
 {
   int pos = 0;
 
+  while(map == NULL)
+  {
+    pos++;
+      
+  }
+
     return NULL;
 }
 
